@@ -1,4 +1,4 @@
-# gopherlol
+# braelol
 > [bunnylol](https://www.quora.com/What-is-Facebooks-bunnylol) / [bunny1](http://www.bunny1.org) -like smart bookmarking tool, written in Go
 
 ```bash
