@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/medal braedon@jump.medal.tv

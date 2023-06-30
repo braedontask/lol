@@ -1,0 +1,1 @@
+can you write me a function in java that takes a map of integers to optional records and returns a map with the same integers but new records with modified fields? using the stream library?
