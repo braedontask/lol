@@ -23,40 +23,16 @@ func (c *Commands) G(cmdArg string) string {
 	return fmt.Sprintf("https://www.google.com/search?q=%s", url.QueryEscape(cmdArg))
 }
 
-func (c *Commands) Egs(cmdArg string) string {
+func (c *Commands) Ags(cmdArg string) string {
 	return fmt.Sprintf("https://github.com/search?q=repo%%3Aget-wrecked%%2Fmedal-electron+%s&type=code", url.QueryEscape(cmdArg))
 }
 
-func (c *Commands) Cgs(cmdArg string) string {
-	return fmt.Sprintf("https://github.com/search?q=repo%%3Aget-wrecked%%2Fmedal_components+%s&type=code", url.QueryEscape(cmdArg))
-}
-
-func (c *Commands) Bgs(cmdArg string) string {
-	return fmt.Sprintf("https://github.com/search?q=repo%%3Aget-wrecked%%2Fmedal-backend+%s&type=code", url.QueryEscape(cmdArg))
-}
-
 func (c *Commands) Cal(cmdArg string) string {
-	return "https://calendar.google.com/calendar/u/1/r"
-}
-
-func (c *Commands) Pcal(cmdArg string) string {
 	return "https://calendar.google.com/calendar/u/0/r"
 }
 
 func (c *Commands) Mail(cmdArg string) string {
-	return "https://mail.google.com/mail/u/1/#inbox"
-}
-
-func (c *Commands) Pmail(cmdArg string) string {
 	return "https://mail.google.com/mail/u/0/#inbox"
-}
-
-func (c *Commands) Gcp(cmdArg string) string {
-	return "https://console.cloud.google.com/sql/instances/clipz/users?authuser=1&project=medal-2995f"
-}
-
-func (c *Commands) X(cmdArg string) string {
-	return "https://linear.app/medal/project/extermination-befd7a005236/US1"
 }
 
 func (c *Commands) Chat(cmdArg string) string {
